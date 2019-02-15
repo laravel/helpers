@@ -13,6 +13,9 @@ Install the package with Composer:
 
     composer require laravel/helpers
 
+## Official Documentation
+
+Documentation for the equivalent methods on the `Arr` and `Str` classes can be found on the [Laravel website](https://laravel.com/docs/helpers).
 
 ## License
 
