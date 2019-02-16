@@ -22,7 +22,8 @@
     },
     "autoload": {
         "files": [
-            "src/helpers.php"
+            "src/array_helpers.php",
+            "src/string_helpers.php"
         ]
     },
     "autoload-dev": {
