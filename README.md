@@ -7,6 +7,8 @@
 
 This package provides a backwards compatibility layer for Laravel 5.8 helpers in the latest Laravel release.
 
+**We are not accepting new helpers.**
+
 ## Installation
 
 Install the package with Composer: 
