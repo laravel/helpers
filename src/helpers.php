@@ -597,3 +597,15 @@ if (! function_exists('title_case')) {
         return Str::title($value);
     }
 }
+
+if (! function_exists('gen_uuid')) {
+    /**
+     * Generate a unique uuid.
+     *
+     * @return string
+     */
+    function gen_uuid()
+    {
+        return uniqid();
+    }
+}
