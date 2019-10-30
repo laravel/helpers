@@ -597,3 +597,32 @@ if (! function_exists('title_case')) {
         return Str::title($value);
     }
 }
+
+if (! function_exists('studly_case')) {
+    /**
+     * Convert a value to studly caps case.
+     *
+     * @param  string  $value
+     * @return string
+     */
+    function studly_case($value)
+    {
+        return Str::studly($value);
+    }
+}
+
+if (! function_exists('is_route')) {
+    /**
+     * Checking current route matched or not with given route
+     *
+     * @param string $route - fullname/substring of a route
+     * @param any $valid - return when true
+     * @param any $invalid - return when false
+     * @return $valid/$invalid
+     */
+    function is_route($route, $valid = true, $invalid = false)
+    {
+        return (strpos(' ' . Route::currentRouteName() . ' ', $route) === false) ? $invalid : $valid;
+    }
+}
+
