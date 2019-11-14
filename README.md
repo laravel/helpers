@@ -19,6 +19,18 @@ Install the package with Composer:
 
 Documentation for the equivalent methods on the `Arr` and `Str` classes can be found on the [Laravel website](https://laravel.com/docs/helpers).
 
+## Contributing
+
+Thank you for considering contributing to Helpers! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+Please review [our security policy](https://github.com/laravel/helpers/security/policy) on how to report security vulnerabilities.
+
 ## License
 
-Laravel Helpers is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Laravel Helpers is open-sourced software licensed under the [MIT license](LICENSE.md).
