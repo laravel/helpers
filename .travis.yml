@@ -1,3 +1,4 @@
+dist: bionic
 language: php
 
 php:
@@ -6,11 +7,11 @@ php:
   - 7.3
   - 7.4
 
-sudo: false
-
 before_install:
   - phpenv config-rm xdebug.ini || true
 
-install: travis_retry composer install --no-interaction --prefer-dist --no-suggest
+install:
+  - travis_retry composer install --no-interaction --prefer-dist --no-suggest
 
-script: vendor/bin/phpunit --verbose
+script:
+  - vendor/bin/phpunit --verbose
