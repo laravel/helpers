@@ -1,6 +1,12 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/helpers/compare/v1.1.1...master)
+## [Unreleased](https://github.com/laravel/helpers/compare/v1.2.0...master)
+
+
+## [v1.2.0 (2020-03-03)](https://github.com/laravel/helpers/compare/v1.1.1...v1.2.0)
+
+### Added
+- Laravel 7 support ([c2cb905](https://github.com/laravel/helpers/commit/c2cb90540059def7d460ecf81f888339b62c574c))
 
 
 ## [v1.1.1 (2019-07-30)](https://github.com/laravel/helpers/compare/v1.1.0...v1.1.1)
