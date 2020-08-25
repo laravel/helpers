@@ -1,6 +1,12 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/helpers/compare/v1.2.0...master)
+## [Unreleased](https://github.com/laravel/helpers/compare/v1.3.0...master)
+
+
+## [v1.3.0 (2020-08-25)](https://github.com/laravel/helpers/compare/v1.2.0...v1.3.0)
+
+### Added
+- Laravel 8 support ([c3ec946](https://github.com/laravel/helpers/commit/c3ec9462c5ae033d81b95a35873b8d3a5970104e))
 
 
 ## [v1.2.0 (2020-03-03)](https://github.com/laravel/helpers/compare/v1.1.1...v1.2.0)
