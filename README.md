@@ -34,3 +34,7 @@ Please review [our security policy](https://github.com/laravel/helpers/security/
 ## License
 
 Laravel Helpers is open-sourced software licensed under the [MIT license](LICENSE.md).
+<a href="https://github.com/laravel/helpers/actions"><img src="https://github.com/laravel/helpers/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/helpers"><img src="https://poser.pugx.org/laravel/helpers/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/helpers"><img src="https://poser.pugx.org/laravel/helpers/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/helpers"><img src="https://poser.pugx.org/laravel/helpers/license.svg" alt="License"></a>
