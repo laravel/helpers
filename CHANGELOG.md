@@ -1,6 +1,12 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/helpers/compare/v1.4.0...master)
+## [Unreleased](https://github.com/laravel/helpers/compare/v1.4.1...master)
+
+
+## [v1.4.1 (2021-02-16)](https://github.com/laravel/helpers/compare/v1.4.0...v1.4.1)
+
+### Fixed
+- Use func_get_args to pass array_prepend call through to Arr::prepend ([#21](https://github.com/laravel/helpers/pull/21))
 
 
 ## [v1.4.0 (2020-11-03)](https://github.com/laravel/helpers/compare/v1.3.0...v1.4.0)
