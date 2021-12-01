@@ -58,6 +58,19 @@ if (! function_exists('array_dot')) {
     }
 }
 
+if (! function_exists('array_undot')) {
+    /**
+     * Convert a flatten "dot" notation array into an expanded array.
+     *
+     * @param  iterable  $array
+     * @return array
+     */
+    function array_undot($array)
+    {
+        return Arr::undot($array);
+    }
+}
+
 if (! function_exists('array_except')) {
     /**
      * Get all of the given array except for a specified array of keys.
