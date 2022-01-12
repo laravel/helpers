@@ -1,6 +1,12 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/helpers/compare/v1.4.1...master)
+## [Unreleased](https://github.com/laravel/helpers/compare/v1.5.0...master)
+
+
+## [v1.5.0 (2022-01-12)](https://github.com/laravel/helpers/compare/v1.4.1...v1.5.0)
+
+### Changed
+- Laravel 9 support ([#24](https://github.com/laravel/helpers/pull/24))
 
 
 ## [v1.4.1 (2021-02-16)](https://github.com/laravel/helpers/compare/v1.4.0...v1.4.1)
