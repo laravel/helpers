@@ -597,3 +597,13 @@ if (! function_exists('title_case')) {
         return Str::title($value);
     }
 }
+
+if (! function_exists('pagination_rules')) {
+    function pagination_rules(): array
+    {
+        return [
+            'per_page' => ['nullable', 'integer', 'min:1'],
+            'page' => ['nullable', 'integer', 'min:1'],
+        ];
+    }
+}
