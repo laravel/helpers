@@ -1,6 +1,12 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/helpers/compare/v1.7.0...master)
+## [Unreleased](https://github.com/laravel/helpers/compare/v1.7.1...master)
+
+## [v1.7.1](https://github.com/laravel/helpers/compare/v1.7.0...v1.7.1) - 2024-11-26
+
+* Use new static analysis workflow by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/helpers/pull/32
+* Replace dead link in Security Policy by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/helpers/pull/33
+* Fix implicitly nullable parameters for PHP 8.4 by [@tylersatre](https://github.com/tylersatre) in https://github.com/laravel/helpers/pull/35
 
 ## [v1.7.0](https://github.com/laravel/helpers/compare/v1.5.0...v1.7.0) - 2023-11-30
 
