@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/helpers/compare/v1.7.1...master)
+## [Unreleased](https://github.com/laravel/helpers/compare/v1.7.2...master)
+
+## [v1.7.2](https://github.com/laravel/helpers/compare/v1.7.1...v1.7.2) - 2025-01-24
+
+* Supports Laravel 12 by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/helpers/pull/36
 
 ## [v1.7.1](https://github.com/laravel/helpers/compare/v1.7.0...v1.7.1) - 2024-11-26
 
