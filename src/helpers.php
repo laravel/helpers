@@ -83,7 +83,21 @@ if (! function_exists('array_first')) {
      */
     function array_first($array, ?callable $callback = null, $default = null)
     {
-        return Arr::first($array, $callback, $default);
+        if (is_null($callback)) {
+            if (empty($array)) {
+                return value($default);
+            }
+
+            foreach ($array as $item) {
+                return $item;
+            }
+
+            return value($default);
+        }
+
+        $key = array_find_key($array, $callback);
+
+        return $key !== null ? $array[$key] : value($default);
     }
 }
 
@@ -155,7 +169,11 @@ if (! function_exists('array_last')) {
      */
     function array_last($array, ?callable $callback = null, $default = null)
     {
-        return Arr::last($array, $callback, $default);
+        if (is_null($callback)) {
+            return empty($array) ? value($default) : end($array);
+        }
+
+        return Arr::first(array_reverse($array, true), $callback, $default);
     }
 }
 
@@ -409,7 +427,21 @@ if (! function_exists('str_contains')) {
      */
     function str_contains($haystack, $needles)
     {
-        return Str::contains($haystack, $needles);
+        if (is_null($haystack)) {
+            return false;
+        }
+
+        if (! is_iterable($needles)) {
+            $needles = (array) $needles;
+        }
+
+        foreach ($needles as $needle) {
+            if ($needle !== '' && strpos($haystack, $needle) !== false) {
+                return true;
+            }
+        }
+
+        return false;
     }
 }
 
