@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/helpers/compare/v1.7.2...master)
+## [Unreleased](https://github.com/laravel/helpers/compare/v1.8.0...master)
+
+## [v1.8.0](https://github.com/laravel/helpers/compare/v1.7.2...v1.8.0) - 2025-09-01
+
+* Prevent infinite loop on array_first, array_last, str_contains by [@rodrigopedra](https://github.com/rodrigopedra) in https://github.com/laravel/helpers/pull/37
 
 ## [v1.7.2](https://github.com/laravel/helpers/compare/v1.7.1...v1.7.2) - 2025-01-24
 
