@@ -76,6 +76,9 @@ if (! function_exists('array_first')) {
     /**
      * Return the first element in an array passing a given truth test.
      *
+     * @deprecated A native function with the same name was introduced in PHP 8.5.
+     *             Use Illuminate\Support\Arr::first to keep functionality
+     *
      * @param  array  $array
      * @param  callable|null  $callback
      * @param  mixed  $default
@@ -161,6 +164,9 @@ if (! function_exists('array_has')) {
 if (! function_exists('array_last')) {
     /**
      * Return the last element in an array passing a given truth test.
+     *
+     * @deprecated A native function with the same name was introduced in PHP 8.5.
+     *             Use Illuminate\Support\Arr::last to keep functionality
      *
      * @param  array  $array
      * @param  callable|null  $callback
@@ -420,6 +426,9 @@ if (! function_exists('str_before')) {
 if (! function_exists('str_contains')) {
     /**
      * Determine if a given string contains a given substring.
+     *
+     * @deprecated A native function with the same name was introduced in PHP 8.0.
+     *             Use Illuminate\Support\Str::contains to keep functionality
      *
      * @param  string  $haystack
      * @param  string|array  $needles
