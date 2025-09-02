@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/helpers/compare/v1.8.0...master)
+## [Unreleased](https://github.com/laravel/helpers/compare/v1.8.1...master)
+
+## [v1.8.1](https://github.com/laravel/helpers/compare/v1.8.0...v1.8.1) - 2025-09-02
+
+* avoid array_find_key by [@rodrigopedra](https://github.com/rodrigopedra) in https://github.com/laravel/helpers/pull/38
 
 ## [v1.8.0](https://github.com/laravel/helpers/compare/v1.7.2...v1.8.0) - 2025-09-01
 
