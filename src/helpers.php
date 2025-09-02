@@ -98,9 +98,13 @@ if (! function_exists('array_first')) {
             return value($default);
         }
 
-        $key = array_find_key($array, $callback);
+        foreach ($array as $key => $value) {
+            if ($callback($value, $key)) {
+                return $value;
+            }
+        }
 
-        return $key !== null ? $array[$key] : value($default);
+        return value($default);
     }
 }
 
