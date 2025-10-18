@@ -641,4 +641,40 @@ if (! function_exists('title_case')) {
     {
         return Str::title($value);
     }
+if (! function_exists('jwt_decode')) {
+    /**
+     * Decode the payload part of a JSON Web Token (JWT).
+     *
+     * @param  string  $jwt
+     * @return array
+     *
+     * @throws \InvalidArgumentException|\RuntimeException
+     */
+    function jwt_decode(string $jwt): array
+    {
+        $parts = explode('.', $jwt);
+
+        if (count($parts) !== 3) {
+            throw new InvalidArgumentException('Invalid JWT format.');
+        }
+
+        $payload = $parts[1];
+        $payload .= str_repeat('=', 4 - (strlen($payload) % 4));
+
+        $decoded = base64_decode(strtr($payload, '-_', '+/'), true);
+
+        if ($decoded === false) {
+            throw new RuntimeException('Invalid Base64 encoding.');
+        }
+
+        $data = json_decode($decoded, true);
+
+        if (json_last_error() !== JSON_ERROR_NONE) {
+            throw new RuntimeException('Invalid JSON in JWT payload.');
+        }
+
+        return $data;
+    }
+    }
+    
 }
