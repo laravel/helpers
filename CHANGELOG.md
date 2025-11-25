@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/helpers/compare/v1.8.1...master)
+## [Unreleased](https://github.com/laravel/helpers/compare/v1.8.2...master)
+
+## [v1.8.2](https://github.com/laravel/helpers/compare/v1.8.1...v1.8.2) - 2025-11-25
+
+* [1.x] PHP 8.5 Compatibility by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/helpers/pull/40
 
 ## [v1.8.1](https://github.com/laravel/helpers/compare/v1.8.0...v1.8.1) - 2025-09-02
 
