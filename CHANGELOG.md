@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/helpers/compare/v1.8.2...master)
+## [Unreleased](https://github.com/laravel/helpers/compare/v1.8.3...master)
+
+## [v1.8.3](https://github.com/laravel/helpers/compare/v1.8.2...v1.8.3) - 2026-03-17
+
+* Added illuminate/support ^13.0 by [@eusonlito](https://github.com/eusonlito) in https://github.com/laravel/helpers/pull/41
 
 ## [v1.8.2](https://github.com/laravel/helpers/compare/v1.8.1...v1.8.2) - 2025-11-25
 
