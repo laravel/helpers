@@ -1,6 +1,30 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/helpers/compare/v1.8.3...master)
+## [Unreleased](https://github.com/laravel/helpers/compare/v1.9.0...master)
+
+## [v1.9.0](https://github.com/laravel/helpers/compare/v1.8.3...v1.9.0) - 2026-11-06
+
+### What's Changed
+
+* GitHub Actions hardening by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/helpers/pull/43
+* Bump actions/checkout from 4.3.1 to 6.0.3 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/laravel/helpers/pull/44
+* Add Dependabot cooldown of 5 days by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/helpers/pull/45
+* Enable Dependabot auto-merge by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/helpers/pull/46
+* Fix reusable workflow pin to match granted permissions by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/helpers/pull/47
+* Bump shivammathur/setup-php from 2.37.1 to 2.37.2 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/laravel/helpers/pull/48
+* Bump actions/checkout from 6.0.3 to 7.0.0 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/laravel/helpers/pull/49
+* Bump actions/checkout from 7.0.0 to 7.0.1 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/laravel/helpers/pull/50
+* Remove security policy in favor of the org-wide default by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/helpers/pull/51
+* Bump shivammathur/setup-php from 2.37.2 to 2.40.0 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/laravel/helpers/pull/52
+* Require patched PHPUnit versions by [@joetannenbaum](https://github.com/joetannenbaum) in https://github.com/laravel/helpers/pull/53
+
+### New Contributors
+
+* [@dependabot](https://github.com/dependabot)[bot] made their first contribution in https://github.com/laravel/helpers/pull/44
+* [@pushpak1300](https://github.com/pushpak1300) made their first contribution in https://github.com/laravel/helpers/pull/51
+* [@joetannenbaum](https://github.com/joetannenbaum) made their first contribution in https://github.com/laravel/helpers/pull/53
+
+**Full Changelog**: https://github.com/laravel/helpers/compare/v1.8.3...v1.9.0
 
 ## [v1.8.3](https://github.com/laravel/helpers/compare/v1.8.2...v1.8.3) - 2026-03-17
 
