@@ -427,37 +427,6 @@ if (! function_exists('str_before')) {
     }
 }
 
-if (! function_exists('str_contains')) {
-    /**
-     * Determine if a given string contains a given substring.
-     *
-     * @deprecated A native function with the same name was introduced in PHP 8.0.
-     *             Use Illuminate\Support\Str::contains to keep functionality
-     *
-     * @param  string  $haystack
-     * @param  string|array  $needles
-     * @return bool
-     */
-    function str_contains($haystack, $needles)
-    {
-        if (is_null($haystack)) {
-            return false;
-        }
-
-        if (! is_iterable($needles)) {
-            $needles = (array) $needles;
-        }
-
-        foreach ($needles as $needle) {
-            if ($needle !== '' && strpos($haystack, $needle) !== false) {
-                return true;
-            }
-        }
-
-        return false;
-    }
-}
-
 if (! function_exists('str_finish')) {
     /**
      * Cap a string with a single instance of a given value.

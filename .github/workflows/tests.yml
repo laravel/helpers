@@ -19,9 +19,13 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        php: [7.2, 7.3, 7.4, '8.0', 8.1, 8.2, 8.3, 8.4, 8.5]
+        php: [8.2, 8.3, 8.4, 8.5]
+        laravel: [12, 13]
+        exclude:
+          - php: 8.2
+            laravel: 13
 
-    name: PHP ${{ matrix.php }}
+    name: PHP ${{ matrix.php }} - Laravel ${{ matrix.laravel }}
 
     steps:
       - name: Checkout code
@@ -39,7 +43,7 @@ jobs:
           coverage: none
 
       - name: Install dependencies
-        run: composer install --no-interaction --prefer-dist
+        run: composer update --prefer-dist --no-interaction --no-progress --with="illuminate/support:^${{ matrix.laravel }}"
 
       - name: Execute tests
         run: vendor/bin/phpunit
