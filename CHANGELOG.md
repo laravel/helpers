@@ -1,6 +1,14 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/helpers/compare/v1.9.0...master)
+## [Unreleased](https://github.com/laravel/helpers/compare/v1.10.0...master)
+
+## [v1.10.0](https://github.com/laravel/helpers/compare/v1.9.0...v1.10.0) - 2026-11-11
+
+### What's Changed
+
+* Dependency floor bump by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/helpers/pull/54
+
+**Full Changelog**: https://github.com/laravel/helpers/compare/v1.9.0...v1.10.0
 
 ## [v1.9.0](https://github.com/laravel/helpers/compare/v1.8.3...v1.9.0) - 2026-11-06
 
